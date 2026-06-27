@@ -22,7 +22,7 @@ namespace CyberBot
         private int _nextLocalId = 1;
         private bool _dbAvailable = false;
 
-        // Context: are we awaiting a reminder reply for a pending task?
+        // Context:  awaiting a reminder reply for a pending task?
         private bool   _awaitingReminder    = false;
         private string _pendingTaskTitle    = "";
         private string _pendingTaskDesc     = "";
@@ -72,7 +72,7 @@ namespace CyberBot
             AppendUserMessage(text);
             ChatInput.Clear();
 
-            // ── Name collection ───────────────────────────────────────────────
+            // ── Name of the collection ───────────────────────────────────────────────
             if (_waitingForName)
             {
                 _userName = text;
