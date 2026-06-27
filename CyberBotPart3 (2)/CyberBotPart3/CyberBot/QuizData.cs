@@ -75,7 +75,7 @@ namespace CyberBot
                 Explanation = "Limiting access reduces the damage an attacker can do if one account is compromised."
             },
 
-            // ── True / False ──────────────────────────────────────────────────
+            // ── True or False ──────────────────────────────────────────────────
             new QuizQuestion
             {
                 Text       = "True or False: Using the same password for multiple sites is safe as long as it's strong.",
